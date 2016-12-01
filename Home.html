@@ -2,7 +2,7 @@
 
 <html lang="en">
 <head>
-    <title>Calendar</title>
+    <title>Home</title>
     
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -25,7 +25,6 @@
             <div class = 'col-xs-12'>
                 <div class="page header">
                 <!--Header-->
-                
                 <h1><img src="Moo-La Manager.jpg" class="img-thumbnail" alt="Cinque Terre" width="104" height="200"> Moo-la Manager</h1>
                 </div>
             </div>
@@ -37,7 +36,7 @@
                 <div class='navbar-inverse'>
                     <div class='container-fluid'>
                     <ul class='nav navbar-nav'>
-                        <li><a href="Home.html"><span class="glyphicon glyphicon-home"></span>&nbsp;Home</a></li> 
+                        <li class='active'><a href="Home.html"><span class="glyphicon glyphicon-home"></span>&nbsp;Home</a></li> 
                         <li><a href="accounts.html"><span class="glyphicon glyphicon-lock"></span>&nbsp;Accounts</a></li> 
                         <li><a href="Budget Screen.html"><span class="glyphicon glyphicon-usd"></span>&nbsp;Budget</a></li>
                         <li><a href="goals.html"><span class="glyphicon glyphicon-ok"></span>&nbsp;Goals</a></li>
@@ -50,18 +49,50 @@
         
         <div class='row'>
             <div class='col-sm-9 col-xs-12'>
+                <h2><strong>Good Morning, Jane!</strong></h2>
                 
-                  <p>
-                  <a href="CreateEvent.html">
-                  <img src="calendarpage.png"
-                     alt="Click a Day to Add an Event"
-                     height="600"
-                     width="800"/>
-                  </a>
-                  </p>
-                  <a href="CreateEvent.html" class="btn btn-info" role="button">Create Reminder</a> 
+                <div class="progress">
+                  <div class="progress-bar progress-bar-success" style="width: 35%"> Rent/Utilities 35%
+                    <span class="sr-only">35% Complete (success)</span>
+                  </div>
+                  <div class="progress-bar progress-bar-warning progress-bar-striped" style="width: 20%"> Food 20%
+                    <span class="sr-only">20% Complete (warning)</span>
+                  </div>
+                  <div class="progress-bar progress-bar-danger" style="width: 10%"> Car 10%
+                    <span class="sr-only">10% Complete (danger)</span>
+                  </div>
+                  <div class="progress-bar progress-bar-primary progress-bar-striped" style="width: 10%"> Shopping 17%
+                    <span class="sr-only">17% Complete (primary)</span>
+                  </div>
+                </div>
+                    
+                        
+                    <div class="list-group">
+                      <a href="UnderConstruction.html" class="list-group-item active">
+                        <h4 class="list-group-item-heading">Days Until Payday: 4</h4>
+                        <p class="list-group-item-text">You get paid on the 15th of every month.</p>
+                      </a>
+                    </div>
+                    <div class="list-group">
+                      <a href="UnderConstruction.html" class="list-group-item active">
+                        <h4 class="list-group-item-heading">Bank Account Balance: $152.32</h4>
+                        <p class="list-group-item-text">Spend Wisely!</p>
+                      </a>
+                    </div>
+                    <div class="list-group">
+                      <a href="UnderConstruction.html" class="list-group-item active">
+                        <h4 class="list-group-item-heading">Days Left in the Month: 19</h4>
+                        <p class="list-group-item-text"> Don't forget to check your goals!</p>
+                      </a>
+                    </div>                   
+                    <div class="list-group">
+                      <a href="#" class="list-group-item active">
+                        <h4 class="list-group-item-heading">Categories You Have Gone Over Budget: None</h4>
+                        <p class="list-group-item-text"> Look at you go! </p>
+                      </a>
+                    </div>                   
 
-
+                    </p>
             </div>
             
             <div class='col-sm-3 col-xs-12 navbar-inverse'>
